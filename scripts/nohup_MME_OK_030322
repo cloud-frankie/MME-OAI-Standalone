@@ -1,0 +1,405 @@
+setting config file to: /usr/local/etc/oai-vepc/mme1/mme.conf
+[32mOPENAIRCN_DIR    = /home/gcuba/openair-cn[00m
+Initializing shared logging
+Initializing shared logging Done
+Initializing OAI Logging
+Initializing OAI logging Done
+mme_config_parse_opt_line mme_config.config_file /usr/local/etc/oai-vepc/mme1/mme.conf
+[0;36m000007 00000:867860 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1020    ==== EURECOM MME vBranch: master Abrev. Hash: d1d0e45e Date: Mon Sep 30 15:46:32 2019 +0200 ====
+[0m[0;32m000008 00000:867882 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1022    Built with CMAKE_BUILD_TYPE ................: Debug
+[0m[0;32m000009 00000:867893 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1023    Built with DISABLE_ITTI_DETECT_SUB_TASK_ID .: 1
+[0m[0;32m000010 00000:867904 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1024    Built with ITTI_TASK_STACK_SIZE ............: 2097152
+[0m[0;32m000011 00000:867914 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1025    Built with ITTI_LITE .......................: 0
+[0m[0;32m000012 00000:867925 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1026    Built with LOG_OAI .........................: 1
+[0m[0;32m000013 00000:867935 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1027    Built with LOG_OAI_CLEAN_HARD ..............: 0
+[0m[0;32m000014 00000:867945 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1028    Built with MESSAGE_CHART_GENERATOR .........: 0
+[0m[0;32m000015 00000:867962 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1029    Built with PACKAGE_NAME ....................: MME
+[0m[0;32m000016 00000:867974 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1030    Built with S1AP_DEBUG_LIST .................: 0
+[0m[0;32m000017 00000:867984 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1031    Built with SECU_DEBUG ......................: 1
+[0m[0;32m000018 00000:867994 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1032    Built with SCTP_DUMP_LIST ..................: 0
+[0m[0;32m000019 00000:868004 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1033    Built with TRACE_HASHTABLE .................: 0
+[0m[0;32m000020 00000:868015 7F5C5A36D2C0 DEBUG CONFIG nair-cn/src/mme_app/mme_config.c:1034    Built with TRACE_3GPP_SPEC .................: 1
+[0m[0;36m000021 00000:868025 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1036    Configuration:
+[0m[0;36m000022 00000:868035 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1037    - File .................................: /usr/local/etc/oai-vepc/mme1/mme.conf
+[0m[0;36m000023 00000:868045 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1038    - Realm ................................: sps.mnc017.mcc716.3gppnetwork.org
+[0m[0;36m000024 00000:868055 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1039    - Run mode .............................: BASIC
+[0m[0;36m000025 00000:868066 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1040    - Max eNBs .............................: 8
+[0m[0;36m000026 00000:868076 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1041    - Max UEs ..............................: 128
+[0m[0;36m000027 00000:868086 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1042    - IMS voice over PS session in S1 ......: false
+[0m[0;36m000028 00000:868096 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1043    - Emergency bearer services in S1 mode .: false
+[0m[0;36m000029 00000:868107 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1044    - Location services via epc ............: false
+[0m[0;36m000030 00000:868117 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1045    - Extended service request .............: false
+[0m[0;36m000031 00000:868127 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1046    - Unauth IMSI support ..................: false
+[0m[0;36m000032 00000:868137 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1047    - Relative capa ........................: 10
+[0m[0;36m000033 00000:868189 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1048    - Statistics timer .....................: 10 (seconds)
+
+[0m[0;36m000034 00000:868201 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1049    - S1-MME:
+[0m[0;36m000035 00000:868212 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1050        port number ......: 36412
+[0m[0;36m000036 00000:868222 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1051    - IP:
+[0m[0;36m000037 00000:868232 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1052        s1-MME iface .....: ens6
+[0m[0;36m000038 00000:868243 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1053        s1-MME ip ........: 10.30.16.5
+[0m[0;36m000039 00000:868254 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1054        s11 MME iface ....: ens6
+[0m[0;36m000040 00000:868264 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1055        s11 MME port .....: 2123
+[0m[0;36m000041 00000:868275 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1056        s11 MME ip .......: 10.30.16.5
+[0m[0;36m000042 00000:868285 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1057        s10 MME iface ....: ens6
+[0m[0;36m000043 00000:868295 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1058        s10 MME port .....: 2123
+[0m[0;36m000044 00000:868306 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1059        s10 MME ip .......: 10.30.16.5
+[0m[0;36m000045 00000:868317 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1060    - ITTI:
+[0m[0;36m000046 00000:868327 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1061        queue size .......: 2000000 (bytes)
+[0m[0;36m000047 00000:868337 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1062        log file .........: (null)
+[0m[0;36m000048 00000:868359 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1063    - SCTP:
+[0m[0;36m000049 00000:868371 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1064        in streams .......: 8
+[0m[0;36m000050 00000:868381 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1065        out streams ......: 8
+[0m[0;36m000051 00000:868391 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1066    - GUMMEIs (PLMN|MMEGI|MMEC):
+[0m[0;36m000052 00000:868403 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1069                716.17 |8020|8 
+[0m[0;36m000053 00000:868415 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1072    - TAIs : (mcc.mnc:tac)
+[0m[0;36m000054 00000:868428 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1078    - TAI list type one PLMN non consecutive TACs
+[0m[0;36m000055 00000:868439 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1087                716. 17:600
+[0m[0;36m000056 00000:868450 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1087                716. 17:4015
+[0m[0;36m000057 00000:868460 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1087                716. 17:65535
+[0m[0;36m000058 00000:868471 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1093    - NAS:
+[0m[0;36m000059 00000:868488 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1098        Prefered Integrity Algorithms .: EIA2 EIA1 EIA0 EIA0 (decreasing priority)
+[0m[0;36m000060 00000:868499 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1103        Prefered Integrity Algorithms .: EEA0 EEA1 EEA2 EEA0 (decreasing priority)
+[0m[0;36m000061 00000:868510 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1104        T3346 ....: 5 min
+[0m[0;36m000062 00000:868520 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1105        T3402 ....: 12 min
+[0m[0;36m000063 00000:868530 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1106        T3412 ....: 54 min
+[0m[0;36m000064 00000:868541 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1107        T3422 ....: 6 sec
+[0m[0;36m000065 00000:868568 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1108        T3450 ....: 6 sec
+[0m[0;36m000066 00000:868579 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1109        T3460 ....: 6 sec
+[0m[0;36m000067 00000:868590 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1110        T3470 ....: 6 sec
+[0m[0;36m000068 00000:868600 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1111        T3485 ....: 8 sec
+[0m[0;36m000069 00000:868610 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1112        T3486 ....: 8 sec
+[0m[0;36m000070 00000:868620 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1113        T3489 ....: 4 sec
+[0m[0;36m000071 00000:868630 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1114        T3470 ....: 6 sec
+[0m[0;36m000072 00000:868640 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1115        T3495 ....: 8 sec
+[0m[0;36m000073 00000:868650 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1116        NAS non standart features .:
+[0m[0;36m000074 00000:868660 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1117          Force TAU ...................: true
+[0m[0;36m000075 00000:868670 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1118          Force reject SR .............: true
+[0m[0;36m000076 00000:868681 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1119          Disable Esm information .....: false
+[0m[0;36m000077 00000:868691 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1121    - S6A:
+[0m[0;36m000078 00000:868701 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1122        conf file ........: /usr/local/etc/oai-vepc/mme1/freeDiameter/mme_fd.conf
+[0m[0;36m000079 00000:868711 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1125    - S5:
+[0m[0;36m000080 00000:868722 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1126        s5-PGW ip ........: 186.160.128.145
+[0m[0;36m000081 00000:868732 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1128    - Logging:
+[0m[0;36m000082 00000:868743 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1129        Output ..............: CONSOLE
+[0m[0;36m000083 00000:868753 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1130        Output thread safe ..: false
+[0m[0;36m000084 00000:868763 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1131        Output with color ...: true
+[0m[0;36m000085 00000:868773 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1132        UDP log level........: TRACE
+[0m[0;36m000086 00000:868783 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1133        GTPV2-C log level....: TRACE
+[0m[0;36m000087 00000:868793 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1134        SCTP log level.......: TRACE
+[0m[0;36m000088 00000:868803 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1135        S1AP log level.......: TRACE
+[0m[0;36m000089 00000:868813 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1136        ASN1 Verbosity level : 0
+[0m[0;36m000090 00000:868824 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1137        NAS log level........: TRACE
+[0m[0;36m000091 00000:868834 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1138        MME_APP log level....: TRACE
+[0m[0;36m000092 00000:868844 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1139        S10 log level........: INVALID_LOG_LEVEL
+[0m[0;36m000093 00000:868854 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1140        S11 log level........: TRACE
+[0m[0;36m000094 00000:868864 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1141        S6a log level........: TRACE
+[0m[0;36m000095 00000:868874 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1142        UTIL log level.......: TRACE
+[0m[0;36m000096 00000:868884 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1143        MSC log level........: ERROR (MeSsage Chart)
+[0m[0;36m000097 00000:868911 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1144        ITTI log level.......: ERROR (InTer-Task Interface)
+[0m[0;36m000098 00000:868922 7F5C5A36D2C0 INFO  CONFIG nair-cn/src/mme_app/mme_config.c:1145        XML log level........: INVALID_LOG_LEVEL (XML dump/load of messages)
+[0m Creating queue of message of size 128
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 256
+ Creating queue of message of size 1024
+ Creating queue of message of size 1024
+ Creating queue of message of size 256
+[0;32m000099 00000:934056 7F5C5A36D2C0 DEBUG NAS    ir-cn/src/nas/emm/nas_emm_task.c:0171    Initializing NAS EMM task interface
+[0m[0;37m000100 00000:934163 7F5C5A36D2C0 TRACE NAS-EM penair-cn/src/nas/emm/emm_main.c:0092    Entering emm_main_initialize()
+[0m[0;37m000101 00000:934225 7F5C5A36D2C0 TRACE NAS    air-cn/src/nas/api/mme/mme_api.c:0120      Entering mme_api_get_emm_config()
+[0m[0;37m000102 00000:934261 7F5C5A36D2C0 TRACE NAS    air-cn/src/nas/api/mme/mme_api.c:0250      Leaving mme_api_get_emm_config() (rc=0)
+[0m[0;37m000103 00000:934320 7F5C5A36D2C0 TRACE NAS-EM penair-cn/src/nas/emm/emm_main.c:0109    Leaving emm_main_initialize()
+[0m[0;32m000104 00000:934496 7F5C5A36D2C0 DEBUG NAS    ir-cn/src/nas/emm/nas_emm_task.c:0180    Initializing NAS EMM task interface: DONE
+[0m[0;32m000105 00000:934510 7F5C5A36D2C0 DEBUG NAS    ir-cn/src/nas/esm/nas_esm_task.c:0158    Initializing NAS ESM task interface
+[0m[0;37m000106 00000:934554 7F5C5A36D2C0 TRACE NAS-ES penair-cn/src/nas/esm/esm_main.c:0093    Entering esm_main_initialize()
+[0m[0;37m000107 00000:934569 7F5C5A36D2C0 TRACE NAS-ES penair-cn/src/nas/esm/esm_main.c:0098    Leaving esm_main_initialize()
+[0m[0;32m000108 00000:934718 7F5C5A36D2C0 DEBUG NAS    ir-cn/src/nas/esm/nas_esm_task.c:0167    Initializing NAS ESM task interface: DONE
+[0m[0;32m000109 00000:934764 7F5C5A36D2C0 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0718    Initializing SCTP task interface
+[0m[0;32m000110 00000:934927 7F5C5A36D2C0 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0732    Initializing SCTP task interface: DONE
+[0m[0;32m000111 00000:934954 7F5C5A36D2C0 DEBUG UDP    /src/udp/udp_primitives_server.c:0384    Initializing UDP task interface
+[0m[0;32m000112 00000:935087 7F5C5A36D2C0 DEBUG UDP    /src/udp/udp_primitives_server.c:0392    Initializing UDP task interface: DONE
+[0m[0;32m000113 00000:935126 7F5C5A36D2C0 DEBUG S10    penair-cn/src/s10/s10_mme_task.c:0381    Initializing S10 interface
+[0m[0;32m000114 00000:936079 7F5C5A36D2C0 DEBUG S10    penair-cn/src/s10/s10_mme_task.c:0364    Tx UDP_INIT IP addr 10.30.16.5:2123
+[0m[0;32m000115 00000:936118 7F5C5A36D2C0 DEBUG S10    penair-cn/src/s10/s10_mme_task.c:0364    Tx UDP_INIT IP addr 10.30.16.5:0
+[0m[0;32m000116 00000:936134 7F5C5A36D2C0 DEBUG S10    penair-cn/src/s10/s10_mme_task.c:0428    Initializing S10 interface: DONE
+[0m[0;32m000117 00000:936180 7F5C5A36D2C0 DEBUG S11    penair-cn/src/s11/s11_mme_task.c:0352    Initializing S11 interface
+[0m[0;32m000118 00000:936238 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0165    Creating new listen socket on address 10.30.16.5 and port 2123
+[0m[0;32m000119 00000:936306 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0178    Listened on port 2123
+[0m[0;32m000120 00000:936320 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0198    Inserting new descriptor for task 8, sd 39
+[0m[0;32m000121 00000:936377 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0214    Received 1 events
+[0m[0;32m000122 00000:936434 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0165    Creating new listen socket on address 10.30.16.5 and port 0
+[0m[0;32m000123 00000:936452 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0178    Listened on port 51737
+[0m[0;32m000124 00000:936463 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0198    Inserting new descriptor for task 8, sd 40
+[0m[0;32m000125 00000:936506 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0214    Received 1 events
+[0m[0;32m000126 00000:938531 7F5C5A36D2C0 DEBUG S11    penair-cn/src/s11/s11_mme_task.c:0339    Tx UDP_INIT IP addr 10.30.16.5:2123
+[0m[0;32m000127 00000:938594 7F5C5A36D2C0 DEBUG S11    penair-cn/src/s11/s11_mme_task.c:0339    Tx UDP_INIT IP addr 10.30.16.5:0
+[0m[0;32m000129 00000:938643 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0165    Creating new listen socket on address 10.30.16.5 and port 2123
+[0m[0;32m000128 00000:938618 7F5C5A36D2C0 DEBUG S11    penair-cn/src/s11/s11_mme_task.c:0399    Initializing S11 interface: DONE
+[0m[0;31m000130 00000:938675 7F5C51B2C700 ERROR UDP    /src/udp/udp_primitives_server.c:0171    Socket bind failed (Address already in use) for address 10.30.16.5 and port 2123
+[0m[0;32m000131 00000:938693 7F5C5A36D2C0 DEBUG S1AP   a/openair-cn/src/s1ap/s1ap_mme.c:0357    Initializing S1AP interface
+[0m[0;32m000132 00000:938702 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0214    Received 1 events
+[0m[0;32m000133 00000:938736 7F5C5A36D2C0 DEBUG S1AP   a/openair-cn/src/s1ap/s1ap_mme.c:0363    ASN1C version 924
+[0m[0;32m000134 00000:938773 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0165    Creating new listen socket on address 10.30.16.5 and port 0
+[0m[0;32m000135 00000:938780 7F5C5A36D2C0 DEBUG S1AP   a/openair-cn/src/s1ap/s1ap_mme.c:0366    S1AP Release v10.5
+[0m[0;32m000136 00000:938799 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0178    Listened on port 34973
+[0m[0;32m000137 00000:938811 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0198    Inserting new descriptor for task 9, sd 41
+[0m[0;32m000138 00000:938832 7F5C51B2C700 DEBUG UDP    /src/udp/udp_primitives_server.c:0214    Received 1 events
+[0m[0;32m000139 00000:940014 7F5C5A36D2C0 DEBUG S1AP   a/openair-cn/src/s1ap/s1ap_mme.c:0383    Initializing S1AP interface: DONE, but not reachable yet (wait for MME<->HSS CER procedure)
+[0m[0;37m000140 00000:940061 7F5C5A36D2C0 TRACE MME-AP ir-cn/src/mme_app/mme_app_main.c:0502    Entering mme_app_init()
+[0m[0;32m000141 00000:941463 7F5C5A36D2C0 DEBUG MME-AP ir-cn/src/mme_app/mme_app_main.c:0553      Initializing MME applicative layer: DONE -- ASSERTING
+[0m[0;37m000142 00000:941497 7F5C5A36D2C0 TRACE MME-AP ir-cn/src/mme_app/mme_app_main.c:0554    Leaving mme_app_init() (rc=0)
+[0m[0;32m000143 00000:941505 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0166    Initializing S6a interface
+[0m[0;32m000144 00000:941533 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0189    Initializing freeDiameter log handler done
+[0m[0;32m000145 00000:941543 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0195    Initializing freeDiameter core...
+[0m[0;31m000146 00000:941683 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:941676 7F5C5A36D2C0 LEVEL S6A --no source file-- libfdproto '1.2.1' initialized.
+[0m[0;31m000147 00000:941735 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:941732 7F5C5A36D2C0 LEVEL S6A --no source file-- libgnutls '3.5.18' initialized.
+[0m[0;31m000148 00000:941875 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:941868 7F5C5A36D2C0 LEVEL S6A --no source file-- HASHLIST is enabled
+[0m[0;31m000149 00000:943901 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:943863 7F5C5A36D2C0 LEVEL S6A --no source file-- libfdcore '1.2.1' initialized.
+[0m[0;32m000150 00000:943995 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0201    Initializing freeDiameter core done
+[0m[0;32m000151 00000:944012 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0205    Default ext path: /usr/local/lib/freeDiameter
+[0m[0;31m000152 00000:990805 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:990794 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_3gpp2_avps) extension.
+[0m[0;31m000153 00000:991173 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:991168 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_draftload_avps) extension.
+[0m[0;31m000154 00000:991469 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:991464 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_etsi283034_avps) extension.
+[0m[0;31m000155 00000:991774 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:991769 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc4004_avps) extension.
+[0m[0;31m000156 00000:992216 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:992212 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc4006bis_avps) extension.
+[0m[0;31m000157 00000:993111 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:993106 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc4072_avps) extension.
+[0m[0;31m000158 00000:993408 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:993404 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc4590_avps) extension.
+[0m[0;31m000159 00000:993844 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:993840 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc5447_avps) extension.
+[0m[0;31m000160 00000:994131 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:994127 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc5580_avps) extension.
+[0m[0;31m000161 00000:994457 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:994453 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc5777_avps) extension.
+[0m[0;31m000162 00000:994939 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:994924 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "IPTM" -> 84
+[0m[0;31m000163 00000:994986 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:994984 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfca03d90): ENUMVAL p:0x564bfc9fb590 data: (INTEGER32   ) "TTP" -> 84
+[0m[0;31m000164 00000:996678 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:996673 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc5778_avps) extension.
+[0m[0;31m000165 00000:997032 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:997028 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc6734_avps) extension.
+[0m[0;31m000166 00000:997371 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:997366 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc6942_avps) extension.
+[0m[0;31m000167 00000:997648 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:997644 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc7155_avps) extension.
+[0m[0;31m000168 00000:999211 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:999206 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc7683_avps) extension.
+[0m[0;31m000169 00000:999600 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:999595 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_rfc7944_avps) extension.
+[0m[0;31m000170 00000:999977 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00000:999972 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29061_avps) extension.
+[0m[0;31m000171 00001:000679 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:000675 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29128_avps) extension.
+[0m[0;31m000172 00001:001082 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:001077 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29154_avps) extension.
+[0m[0;31m000173 00001:001427 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:001423 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29173_avps) extension.
+[0m[0;31m000174 00001:001856 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:001848 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29212_avps) extension.
+[0m[0;31m000175 00001:003993 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:003988 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29214_avps) extension.
+[0m[0;31m000176 00001:005226 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:005221 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29215_avps) extension.
+[0m[0;31m000177 00001:005820 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:005815 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29217_avps) extension.
+[0m[0;31m000178 00001:006286 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:006282 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29229_avps) extension.
+[0m[0;31m000179 00001:007293 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:007286 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29272_avps) extension.
+[0m[0;31m000180 00001:010761 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:010756 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29273_avps) extension.
+[0m[0;31m000181 00001:011648 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:011641 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29329_avps) extension.
+[0m[0;31m000182 00001:011731 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:011728 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,  OCTETSTRING, 702    "User-Data"
+[0m[0;31m000183 00001:011770 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:011768 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfca8d460): AVP p:(nil) data: v/m:VM/VM,  OCTETSTRING, 606    "User-Data"
+[0m[0;31m000184 00001:012541 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:012533 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29336_avps) extension.
+[0m[0;31m000185 00001:014195 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:014190 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29337_avps) extension.
+[0m[0;31m000186 00001:014622 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:014617 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29338_avps) extension.
+[0m[0;31m000187 00001:015796 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:015792 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29343_avps) extension.
+[0m[0;31m000188 00001:016355 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:016350 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29344_avps) extension.
+[0m[0;31m000189 00001:016820 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:016816 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29345_avps) extension.
+[0m[0;31m000190 00001:017125 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:017122 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,   UNSIGNED32, 3818   "Time-Window"
+[0m[0;31m000191 00001:017178 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:017176 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfca522c0): AVP p:(nil) data: v/m:VM/VM,      GROUPED, 4204   "Time-Window"
+[0m[0;31m000192 00001:018700 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:018695 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29368_avps) extension.
+[0m[0;31m000193 00001:019393 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:019388 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts29468_avps) extension.
+[0m[0;31m000194 00001:019706 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:019704 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: v/m:V-/VM,  OCTETSTRING, 3522   "MBMS-GW-SSM-IP-Address"
+[0m[0;31m000195 00001:019747 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:019746 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfca4c930): AVP p:(nil) data: v/m:V-/VM,  OCTETSTRING, 924    "MBMS-GW-SSM-IP-Address"
+[0m[0;31m000196 00001:020397 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:020389 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_ts32299_avps) extension.
+[0m[0;31m000197 00001:020449 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:020447 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "Active" -> 0
+[0m[0;31m000198 00001:020477 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:020476 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfca54720): ENUMVAL p:0x564bfca544e0 data: (INTEGER32   ) "ACTIVE" -> 0
+[0m[0;31m000199 00001:020492 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:020490 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: (INTEGER32   ) "Inactive" -> 1
+[0m[0;31m000200 00001:020503 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:020501 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfca548a0): ENUMVAL p:0x564bfca544e0 data: (INTEGER32   ) "INACTIVE" -> 1
+[0m[0;31m000201 00001:020523 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:020521 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,    INTEGER32, 4406   "3GPP-PS-Data-Off-Status"
+[0m[0;31m000202 00001:020551 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:020549 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfca54a20): AVP p:0x564bfca544e0 data: v/m:V-/VM,    INTEGER32, 2847   "3GPP-PS-Data-Off-Status"
+[0m[0;31m000203 00001:027181 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:027173 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: v/m:VM/VM,  OCTETSTRING, 3462   "Radio-Frequency"
+[0m[0;31m000204 00001:027236 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:027234 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfcaef2f0): AVP p:(nil) data: v/m:VM/VM,   UNSIGNED32, 3508   "Radio-Frequency"
+[0m[0;31m000205 00001:033855 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:033847 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_s6as6d) extension.
+[0m[0;31m000206 00001:034277 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:034273 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_s6t) extension.
+[0m[0;31m000207 00001:034609 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:034605 7F5C5A36D2C0 LEVEL S6A --no source file-- Loading (dict_s6c) extension.
+[0m[0;31m000208 00001:034654 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:034651 7F5C5A36D2C0 LEVEL S6A --no source file-- An error occurred while adding the following data in the dictionary: data: (UNSIGNED32  ) "Permanent_Failures" -> 3
+[0m[0;31m000209 00001:034688 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:034687 7F5C5A36D2C0 LEVEL S6A --no source file-- Conflicting entry in the dictionary: {dictobj}(@0x564bfcb47870): ENUMVAL p:0x564bfc9af090 data: (UNSIGNED32  ) "MME_SGSN_behaviour" -> 3
+[0m[0;31m000210 00001:039675 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039667 7F5C5A36D2C0 LEVEL S6A --no source file-- All extensions loaded.
+[0m[0;31m000211 00001:039793 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039791 7F5C5A36D2C0 LEVEL S6A --no source file-- freeDiameter configuration:
+[0m[0;31m000212 00001:039827 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039825 7F5C5A36D2C0 LEVEL S6A --no source file--   Default trace level .... : +3
+[0m[0;31m000213 00001:039836 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039834 7F5C5A36D2C0 LEVEL S6A --no source file--   Configuration file ..... : /usr/local/etc/oai-vepc/mme1/freeDiameter/mme_fd.conf
+[0m[0;31m000214 00001:039846 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039844 7F5C5A36D2C0 LEVEL S6A --no source file--   Diameter Identity ...... : oamme.sps.mnc017.mcc716.3gppnetwork.org (l:39)
+[0m[0;31m000215 00001:039855 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039853 7F5C5A36D2C0 LEVEL S6A --no source file--   Diameter Realm ......... : sps.mnc017.mcc716.3gppnetwork.org (l:33)
+[0m[0;31m000216 00001:039863 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039862 7F5C5A36D2C0 LEVEL S6A --no source file--   Tc Timer ............... : 30
+[0m[0;31m000217 00001:039872 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039870 7F5C5A36D2C0 LEVEL S6A --no source file--   Tw Timer ............... : 30
+[0m[0;31m000218 00001:039881 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039879 7F5C5A36D2C0 LEVEL S6A --no source file--   Local port ............. : 3870
+[0m[0;31m000219 00001:039889 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039888 7F5C5A36D2C0 LEVEL S6A --no source file--   Local secure port ...... : 5870
+[0m[0;31m000220 00001:039898 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039896 7F5C5A36D2C0 LEVEL S6A --no source file--   Number of SCTP streams . : 3
+[0m[0;31m000221 00001:039906 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039905 7F5C5A36D2C0 LEVEL S6A --no source file--   Number of clients thr .. : 5
+[0m[0;31m000222 00001:039915 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039913 7F5C5A36D2C0 LEVEL S6A --no source file--   Number of app threads .. : 4
+[0m[0;31m000223 00001:039923 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039922 7F5C5A36D2C0 LEVEL S6A --no source file--   Local endpoints ........ : 10.30.17.47{C----}  Local applications ..... : (none)
+[0m[0;31m000224 00001:039932 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039931 7F5C5A36D2C0 LEVEL S6A --no source file--   Flags : - IP ........... : Enabled
+[0m[0;31m000225 00001:039957 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039955 7F5C5A36D2C0 LEVEL S6A --no source file--           - IPv6 ......... : DISABLED
+[0m[0;31m000226 00001:039967 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039965 7F5C5A36D2C0 LEVEL S6A --no source file--           - Relay app .... : DISABLED
+[0m[0;31m000227 00001:039976 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039974 7F5C5A36D2C0 LEVEL S6A --no source file--           - TCP .......... : Enabled
+[0m[0;31m000228 00001:039984 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039982 7F5C5A36D2C0 LEVEL S6A --no source file--           - SCTP ......... : DISABLED (at compilation)
+[0m[0;31m000229 00001:039992 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039991 7F5C5A36D2C0 LEVEL S6A --no source file--           - Pref. proto .. : TCP
+[0m[0;31m000230 00001:040001 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:039999 7F5C5A36D2C0 LEVEL S6A --no source file--           - TLS method ... : Separate port
+[0m[0;31m000231 00001:040009 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040007 7F5C5A36D2C0 LEVEL S6A --no source file--   TLS :   - Certificate .. : /usr/local/etc/oai-vepc/mme1/freeDiameter/mme.cert.pem
+[0m[0;31m000232 00001:040018 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040016 7F5C5A36D2C0 LEVEL S6A --no source file--           - Private key .. : /usr/local/etc/oai-vepc/mme1/freeDiameter/mme.key.pem
+[0m[0;31m000233 00001:040027 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040025 7F5C5A36D2C0 LEVEL S6A --no source file--           - CA (trust) ... : /usr/local/etc/oai-vepc/mme1/freeDiameter/mme.cacert.pem (1 certs)
+[0m[0;31m000234 00001:040035 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040034 7F5C5A36D2C0 LEVEL S6A --no source file--           - CRL .......... : (none)
+[0m[0;31m000235 00001:040044 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040042 7F5C5A36D2C0 LEVEL S6A --no source file--           - Priority ..... : (default: 'NORMAL')
+[0m[0;31m000236 00001:040052 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040050 7F5C5A36D2C0 LEVEL S6A --no source file--           - DH bits ...... : 1024
+[0m[0;31m000237 00001:040061 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040059 7F5C5A36D2C0 LEVEL S6A --no source file--   Origin-State-Id ........ : 1646334679
+[0m[0;31m000238 00001:040082 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040080 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_3gpp2_avps.fdx'[(no config file)], loaded
+[0m[0;31m000239 00001:040091 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040090 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_draftload_avps.fdx'[(no config file)], loaded
+[0m[0;31m000240 00001:040100 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040098 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_etsi283034_avps.fdx'[(no config file)], loaded
+[0m[0;31m000241 00001:040109 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040107 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4004_avps.fdx'[(no config file)], loaded
+[0m[0;31m000242 00001:040118 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040116 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4006bis_avps.fdx'[(no config file)], loaded
+[0m[0;31m000243 00001:040127 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040125 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4072_avps.fdx'[(no config file)], loaded
+[0m[0;31m000244 00001:040149 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040146 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc4590_avps.fdx'[(no config file)], loaded
+[0m[0;31m000245 00001:040159 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040157 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5447_avps.fdx'[(no config file)], loaded
+[0m[0;31m000246 00001:040168 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040166 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5580_avps.fdx'[(no config file)], loaded
+[0m[0;31m000247 00001:040177 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040175 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5777_avps.fdx'[(no config file)], loaded
+[0m[0;31m000248 00001:040185 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040183 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc5778_avps.fdx'[(no config file)], loaded
+[0m[0;31m000249 00001:040194 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040192 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc6734_avps.fdx'[(no config file)], loaded
+[0m[0;31m000250 00001:040203 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040201 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc6942_avps.fdx'[(no config file)], loaded
+[0m[0;31m000251 00001:040211 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040209 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7155_avps.fdx'[(no config file)], loaded
+[0m[0;31m000252 00001:040220 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040218 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7683_avps.fdx'[(no config file)], loaded
+[0m[0;31m000253 00001:040229 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040227 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_rfc7944_avps.fdx'[(no config file)], loaded
+[0m[0;31m000254 00001:040237 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040236 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29061_avps.fdx'[(no config file)], loaded
+[0m[0;31m000255 00001:040246 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040244 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29128_avps.fdx'[(no config file)], loaded
+[0m[0;31m000256 00001:040255 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040253 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29154_avps.fdx'[(no config file)], loaded
+[0m[0;31m000257 00001:040263 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040262 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29173_avps.fdx'[(no config file)], loaded
+[0m[0;31m000258 00001:040272 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040270 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29212_avps.fdx'[(no config file)], loaded
+[0m[0;31m000259 00001:040281 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040279 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29214_avps.fdx'[(no config file)], loaded
+[0m[0;31m000260 00001:040301 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040299 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29215_avps.fdx'[(no config file)], loaded
+[0m[0;31m000261 00001:040311 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040309 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29217_avps.fdx'[(no config file)], loaded
+[0m[0;31m000262 00001:040320 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040318 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29229_avps.fdx'[(no config file)], loaded
+[0m[0;31m000263 00001:040329 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040327 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29272_avps.fdx'[(no config file)], loaded
+[0m[0;31m000264 00001:040347 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040345 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29273_avps.fdx'[(no config file)], loaded
+[0m[0;31m000265 00001:040357 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040356 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29329_avps.fdx'[(no config file)], loaded
+[0m[0;31m000266 00001:040366 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040364 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29336_avps.fdx'[(no config file)], loaded
+[0m[0;31m000267 00001:040375 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040373 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29337_avps.fdx'[(no config file)], loaded
+[0m[0;31m000268 00001:040384 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040382 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29338_avps.fdx'[(no config file)], loaded
+[0m[0;31m000269 00001:040392 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040391 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29343_avps.fdx'[(no config file)], loaded
+[0m[0;31m000270 00001:040401 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040399 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29344_avps.fdx'[(no config file)], loaded
+[0m[0;31m000271 00001:040410 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040408 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29345_avps.fdx'[(no config file)], loaded
+[0m[0;31m000272 00001:040418 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040416 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29368_avps.fdx'[(no config file)], loaded
+[0m[0;31m000273 00001:040427 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040425 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts29468_avps.fdx'[(no config file)], loaded
+[0m[0;31m000274 00001:040435 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040434 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_ts32299_avps.fdx'[(no config file)], loaded
+[0m[0;31m000275 00001:040444 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040442 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6as6d.fdx'[(no config file)], loaded
+[0m[0;31m000276 00001:040479 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040477 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6t.fdx'[(no config file)], loaded
+[0m[0;31m000277 00001:040489 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:040488 7F5C5A36D2C0 LEVEL S6A --no source file-- Loaded extensions: '/usr/local/lib/freeDiameter/dict_S6c.fdx'[(no config file)], loaded
+[0m[0;32m000278 00001:040528 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0213    fd_core_parseconf done
+[0m[0;32m000279 00001:040541 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0222    Enabled GNUTLS debug at level 9
+[0m[0;31m000280 00001:041780 7F5C5A36D2C0 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:041777 7F5C5A36D2C0 LEVEL S6A --no source file-- Local server address(es): 10.30.17.47{C----}
+[0m[0;32m000281 00001:041881 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0233    fd_core_start done
+[0m[0;32m000282 00001:041896 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0242    fd_core_waitstartcomplete done
+[0m[0;32m000283 00001:042045 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0250    s6a_fd_init_dict_objs done
+[0m[0;32m000284 00001:042249 7F5C5A36D2C0 DEBUG S6A    ba/openair-cn/src/s6a/s6a_task.c:0257    Initializing S6a interface: DONE
+[0m[0;32m000285 00001:042273 7F5C5A36D2C0 DEBUG MME-AP openair-cn/src/oai_mme/oai_mme.c:0171    MME app initialization complete
+[0m[0;31m000286 00001:054964 7F5C497FA700 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:054943 7F5C497FA700 LEVEL S6A --no source file-- Connected to 'LIMDRA02.sps.mnc017.mcc716.3gppnetwork.org' (TCP,soc#46), remote capabilities: 
+[0m[0;31m000287 00001:055030 7F5C497FA700 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:055027 7F5C497FA700 LEVEL S6A --no source file--    Capabilities-Exchange-Answer(257)[----], Length=212, Hop-By-Hop-Id=0x437359d8, End-to-End=0x2d78c933, { Result-Code(268)[-M]='DIAMETER_SUCCESS' (2001 (0x7d1)) }, { Origin-Host(264)[-M]="LIMDRA02.sps.mnc017.mcc716.3gppnetwork.org" }, { Origin-Realm(296)[-M]="sps.mnc017.mcc716.3gppnetwork.org" }, { Host-IP-Address(257)[-M]=10.68.152.28 }, { Vendor-Id(266)[-M]=2011 (0x7db) }, { Product-Name(269)[--]="SPS" }, { Inband-Security-Id(299)[-M]='NO_INBAND_SECURITY' (0 (0x0)) }, { Vendor-Specific-Application-Id(260)[-M]={ Vendor-Id(266)[-M]=10415 (0x28af) }, { Auth-Application-Id(258)[-M]=16777251 (0x1000023) } }
+[0m[0;31m000288 00001:055056 7F5C497FA700 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:055048 7F5C497FA700 LEVEL S6A --no source file-- No TLS protection negotiated with peer 'LIMDRA02.sps.mnc017.mcc716.3gppnetwork.org'.
+[0m[0;31m000289 00001:055110 7F5C497FA700 ERROR S6A    ba/openair-cn/src/s6a/s6a_task.c:0089    ...... 00001:055107 7F5C497FA700 LEVEL S6A --no source file-- 'STATE_WAITCEA'	-> 'STATE_OPEN'	'LIMDRA02.sps.mnc017.mcc716.3gppnetwork.org'
+[0m[0;32m000290 00002:042520 7F5BF4FF9700 DEBUG S6A    ba/openair-cn/src/s6a/s6a_peer.c:0116    Diameter identity of MME: oamme.sps.mnc017.mcc716.3gppnetwork.org with length: 39
+[0m[0;32m000291 00002:042588 7F5BF4FF9700 DEBUG S6A    ba/openair-cn/src/s6a/s6a_peer.c:0151    S6a peer connection attempt 1 / 8
+[0m[0;32m000292 00002:042614 7F5BF4FF9700 DEBUG S6A    ba/openair-cn/src/s6a/s6a_peer.c:0164    Peer LIMDRA02.sps.mnc017.mcc716.3gppnetwork.org is now connected...
+[0m[0;32m000293 00002:042882 7F5C5232D700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0674    Received SCTP_INIT_MSG
+[0m[0;32m000294 00002:042955 7F5C5232D700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0320    Creating new listen socket on port 36412 with
+[0m[0;32m000295 00002:042965 7F5C5232D700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0325    ipv4 addresses:
+[0m[0;32m000296 00002:043016 7F5C5232D700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0334    	- 10.30.16.5
+[0m[0;32m000297 00002:728406 7F5BD77FE700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0448    Client association changed: 0
+[0m[0;32m000298 00002:728499 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0110    ----------------------
+[0m[0;32m000299 00002:728508 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0111    SCTP Status:
+[0m[0;32m000300 00002:728515 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0112    assoc id .....: 2
+[0m[0;32m000301 00002:728521 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0113    state ........: 4
+[0m[0;32m000302 00002:728527 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0114    instrms ......: 8
+[0m[0;32m000303 00002:728533 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0115    outstrms .....: 8
+[0m[0;32m000304 00002:728540 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0116    fragmentation : 1432
+[0m[0;32m000305 00002:728558 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0117    pending data .: 0
+[0m[0;32m000306 00002:728565 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0118    unack data ...: 0
+[0m[0;32m000307 00002:728571 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0119    rwnd .........: 177248
+[0m[0;32m000308 00002:728577 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0120    peer info     :
+[0m[0;32m000309 00002:728583 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0121        state ....: 2
+[0m[0;32m000310 00002:728589 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0122        cwnd .....: 4380
+[0m[0;32m000311 00002:728594 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0123        srtt .....: 0
+[0m[0;32m000312 00002:728600 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0124        rto ......: 3000
+[0m[0;32m000313 00002:728606 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0125        mtu ......: 1500
+[0m[0;32m000314 00002:728612 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0126    ----------------------
+[0m[0;32m000315 00002:728618 7F5BD77FE700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0458    New connection
+[0m[0;32m000316 00002:728648 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0214    ----------------------
+[0m[0;32m000317 00002:728666 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0215    Local addresses:
+[0m[0;32m000318 00002:728673 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0240    ----------------------
+[0m[0;32m000319 00002:728685 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0158    ----------------------
+[0m[0;32m000320 00002:728691 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0159    Peer addresses:
+[0m[0;32m000321 00002:728697 7F5BD77FE700 DEBUG SCTP   penair-cn/src/sctp/sctp_common.c:0183    ----------------------
+[0m[0;32m000322 00002:728723 7F5BD77FE700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0519    SCTP RETURNING!!
+[0m[0;37m000323 00002:728850 7F5C4BFFF700 TRACE S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:2155    Entering s1ap_handle_new_association()
+[0m[0;32m000324 00002:728921 7F5C4BFFF700 DEBUG S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:2162      Create eNB context for assoc_id: 2
+[0m[0;37m000325 00002:728945 7F5C4BFFF700 TRACE S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:2203    Leaving s1ap_handle_new_association() (rc=0)
+[0m[0;32m000326 00002:760917 7F5BD77FE700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0514    [2][48] Msg of length 70 received from port 2024, on stream 0, PPID 18
+[0m[0;32m000327 00002:760953 7F5BD77FE700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0519    SCTP RETURNING!!
+[0m[0;32m000328 00002:761132 7F5C4BFFF700 DEBUG S1AP   /CMakeFiles/r10.5/s1ap_decoder.c:7309    Decoding message S1ap_S1SetupRequestIEs (/home/gcuba/openair-cn/build/mme/build/CMakeFiles/r10.5/s1ap_decoder.c:7309)
+[0m[0;37m000329 00002:761481 7F5C4BFFF700 TRACE S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:0266    Entering s1ap_mme_handle_s1_setup_request()
+[0m[0;32m000330 00002:761496 7F5C4BFFF700 DEBUG S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:0293      New s1 setup request incoming from 01463512-TC-MSO-SBO-P1-Pico-B macro eNB id: 0f818[0m
+[0;37m000331 00002:761516 7F5C4BFFF700 TRACE S1AP   ir-cn/src/s1ap/s1ap_mme_gummei.c:0090    Leaving s1ap_mme_compare_gummei() (rc=0)
+[0m[0;37m000332 00002:761531 7F5C4BFFF700 TRACE S1AP   penair-cn/src/s1ap/s1ap_mme_ta.c:0117    Comparing config tac 600, received tac = 4015
+[0m[0;37m000333 00002:761538 7F5C4BFFF700 TRACE S1AP   penair-cn/src/s1ap/s1ap_mme_ta.c:0117    Comparing config tac 4015, received tac = 4015
+[0m[0;37m000334 00002:761546 7F5C4BFFF700 TRACE S1AP   penair-cn/src/s1ap/s1ap_mme_ta.c:0061    Comparing plmn_mcc 716/716, plmn_mnc 17/17 plmn_mnc_len 2/2
+[0m[0;32m000335 00002:761554 7F5C4BFFF700 DEBUG S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:0359    Adding eNB to the list of served eNBs
+[0m[0;37m000336 00002:761563 7F5C4BFFF700 TRACE S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:0448    Entering s1ap_generate_s1_setup_response()
+[0m[0;37m000337 00002:761655 7F5C4BFFF700 TRACE S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:0534    Leaving s1ap_generate_s1_setup_response() (rc=0)
+[0m[0;37m000338 00002:761689 7F5C4BFFF700 TRACE S1AP   -cn/src/s1ap/s1ap_mme_handlers.c:0420    Leaving s1ap_mme_handle_s1_setup_request() (rc=0)
+[0m[0;32m000339 00002:761705 7F5C5232D700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0278    [48][2] Sending buffer 0x7f5bc0002fb0 of 27 bytes on stream 0 with ppid 18
+[0m[0;32m000340 00002:761798 7F5C5232D700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0288    Successfully sent 27 bytes on stream 0
+[0m[0;32m000341 00002:762866 7F5BD77FE700 DEBUG SCTP   rc/sctp/sctp_primitives_server.c:0519    SCTP RETURNING!!
+[0m[0;32m000342 00010:941608 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0045    ======================================= STATISTICS ============================================
+
+[0m[0;32m000343 00010:941690 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0046                   |   Current Status| Added since last display|  Removed since last display |
+[0m[0;32m000344 00010:941748 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0048    Connected eNBs |          1      |              1              |             0               |
+[0m[0;32m000345 00010:941771 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0050    Attached UEs   |          0      |              0              |             0               |
+[0m[0;32m000346 00010:941789 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0052    Connected UEs  |          0      |              0              |             0               |
+[0m[0;32m000347 00010:941804 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0054    Default Bearers|          0      |              0              |             0               |
+[0m[0;32m000348 00010:941821 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0056    S1-U Bearers   |          0      |              0              |             0               |
+
+[0m[0;32m000349 00010:941837 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0057    ======================================= STATISTICS ============================================
+
+[0m[0;32m000350 00020:941632 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0045    ======================================= STATISTICS ============================================
+
+[0m[0;32m000351 00020:941767 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0046                   |   Current Status| Added since last display|  Removed since last display |
+[0m[0;32m000352 00020:941783 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0048    Connected eNBs |          1      |              0              |             0               |
+[0m[0;32m000353 00020:941829 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0050    Attached UEs   |          0      |              0              |             0               |
+[0m[0;32m000354 00020:941839 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0052    Connected UEs  |          0      |              0              |             0               |
+[0m[0;32m000355 00020:941847 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0054    Default Bearers|          0      |              0              |             0               |
+[0m[0;32m000356 00020:941855 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0056    S1-U Bearers   |          0      |              0              |             0               |
+
+[0m[0;32m000357 00020:941863 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0057    ======================================= STATISTICS ============================================
+
+[0m[0;32m000358 00030:941572 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0045    ======================================= STATISTICS ============================================
+
+[0m[0;32m000359 00030:941641 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0046                   |   Current Status| Added since last display|  Removed since last display |
+[0m[0;32m000360 00030:941653 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0048    Connected eNBs |          1      |              0              |             0               |
+[0m[0;32m000361 00030:941662 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0050    Attached UEs   |          0      |              0              |             0               |
+[0m[0;32m000362 00030:941671 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0052    Connected UEs  |          0      |              0              |             0               |
+[0m[0;32m000363 00030:941679 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0054    Default Bearers|          0      |              0              |             0               |
+[0m[0;32m000364 00030:941688 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0056    S1-U Bearers   |          0      |              0              |             0               |
+
+[0m[0;32m000365 00030:941697 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0057    ======================================= STATISTICS ============================================
+
+[0m[0;32m000366 00040:941625 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0045    ======================================= STATISTICS ============================================
+
+[0m[0;32m000367 00040:941768 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0046                   |   Current Status| Added since last display|  Removed since last display |
+[0m[0;32m000368 00040:941787 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0048    Connected eNBs |          1      |              0              |             0               |
+[0m[0;32m000369 00040:941800 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0050    Attached UEs   |          0      |              0              |             0               |
+[0m[0;32m000370 00040:941816 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0052    Connected UEs  |          0      |              0              |             0               |
+[0m[0;32m000371 00040:941828 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0054    Default Bearers|          0      |              0              |             0               |
+[0m[0;32m000372 00040:941841 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0056    S1-U Bearers   |          0      |              0              |             0               |
+
+[0m[0;32m000373 00040:941853 7F5C4B7FE700 DEBUG MME-AP src/mme_app/mme_app_statistics.c:0057    ======================================= STATISTICS ============================================
+
+[0m./run_mme: line 85:  3894 Terminated              $SUDO mme `echo $exe_arguments` 2>&1
