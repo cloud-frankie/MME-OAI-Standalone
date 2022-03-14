@@ -1,14 +1,15 @@
-#------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
 
-                             OPENAIR-CN
-    An implementation of the Evolved Packet Core network.
+                             MME-OAI-Standalone
+              An Adaptation of MME Openairinterface Legacy.
     
-#------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
     
-  Openair-cn is an implementation of the 3GPP specifications concerning the 
-  Evolved Packet Core Networks, that means it contains the implementation of the
-  following network elements: MME, HSS, S-GW+P-GW.
-  
+  This project is an adaptation of the Openairinterface MME Legacy which was created with the
+  aim of making a standalone deployment. In this way, it can be integrated with other elements 
+  of any commercial or open source solution in order to study the signaling protocols 
+  and basic procedures in the Evolved Packet Core.
+
 #---------------------
 Licence info  
 #---------------------
@@ -29,7 +30,7 @@ Linux
 Collaborative work
 #---------------------
   This source code is managed through a GITHUB, a collaborative development 
-  platform, URL: https://github.com/OPENAIRINTERFACE/openair-cn
+  platform, URL: https://github.com/cloud-frankie/MME-OAI-Standalone
 
 
 #---------------------
@@ -45,9 +46,6 @@ Contributions request
   - Integrate and fill Sprint release of PCEF, PCRF.
   - Improve SPGW code quality (would go also for C++ for SPGW higher layers, ITTI, and utils).
 
-#---------------------
-How to contribute
-#---------------------
-    Please visit https://www.openairinterface.org/?page_id=112 :
+
  
 
